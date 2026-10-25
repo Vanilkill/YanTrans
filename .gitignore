@@ -1,0 +1,39 @@
+# Виртуальное окружение Python
+venv/
+.venv/
+env/
+ENV/
+
+# Байткод и кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Конфигурационные файлы и секреты (OAuth токены, client_id/secret)
+.env
+.env.local
+config.local.json
+
+# Локальные базы данных SQLite и временные файлы WAL
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Настройки IDE и редакторов
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Логи и дампы
+*.log
+
+# Тестовые аудиофайлы (если будете складывать треки в корень)
+*.mp3
+*.flac
+*.m4a
+*.wav
